@@ -1,0 +1,42 @@
+/**
+ * Admin css
+ */
+
+/**
+ * "Description" layout
+ */
+.zpsc-desc-layout{background: #fff;border: 1px solid #d8d8d8;margin: 25px 30px 0px 15px;}
+.zpsc-heading h1{padding: 15px;text-transform: uppercase;color: #336374;font-size: 22px;}
+.zpsc-desc h2{padding: 0px 15px;text-transform: uppercase;color: #2a8db0;font-size: 16px;}
+.zpsc-desc p{font-size: 14px;padding: 0px 15px;line-height: 1.7;}
+
+/**
+ * "Create Size Chart" meta box
+ */
+#zpsc-create-size-chart .zpsc-chart-metabox{border: 1px solid #60606052;margin: 25px 10px 10px;}
+#zpsc-create-size-chart .zpsc-chart-metabox #zpsc-chart-table{width: 100%;}
+#zpsc-create-size-chart .zpsc-chart-metabox #zpsc-chart-table th{padding: 10px;}
+#zpsc-create-size-chart .zpsc-chart-metabox #zpsc-chart-table td{padding: 5px;}
+#zpsc-chart-table input.zpsc-chart-input-table{width: 100%; height: 40px; border: 1px solid #bbb5b5}
+#zpsc-chart-table td.zpsc-chart-table-button-container{width: 65px;}
+#zpsc-chart-table .zpsc-chart-table-button-container .zpsc-chart-add-row,
+#zpsc-chart-table .zpsc-chart-add-col{cursor: pointer;background: #00669bb5;border: 1px solid #000;color: #fff;text-align: center;width: 20px;height: 20px;display: inline-block;padding: 0;margin: 5px;border-radius: 0px;}
+#zpsc-chart-table .zpsc-chart-table-button-container .zpsc-chart-del-row,
+#zpsc-chart-table .zpsc-chart-del-col{cursor: pointer;background: #eb0000;border: 1px solid #000;color: #fff;text-align: center;width: 20px;height: 20px;display: inline-block;padding: 0;margin: 5px;border-radius: 0px;font-weight: 800;}
+
+#zpsc-create-size-chart .zpsc-chart-metabox #zpsc-chart-table tr > td:first-child input,
+#zpsc-create-size-chart .zpsc-chart-metabox #zpsc-chart-table tr:nth-child(1) > td input{font-weight: 700;}
+
+/**
+ * "Chart Option" meta box
+ */
+#zpsc-chart-options .zpsc-option-metabox .zpsc-product-container{display: flex;padding: 15px 10px;}
+#zpsc-chart-options .zpsc-option-metabox .zpsc-product-container label{flex: auto;font-size: 14px;font-weight: bold;line-height: 1.7;}
+#zpsc-chart-options .zpsc-option-metabox .zpsc-product-container .zpsc-product-wrapper{width: 70%;}
+#zpsc-chart-options .zpsc-option-metabox .zpsc-product-container .zpsc-product-wrapper .zpsc-product-select{width: 400px;}
+#zpsc-chart-options .zpsc-option-metabox .zpsc-product-container .zpsc-product-wrapper .zpsc-product-desc{display: block;margin-top: 5px;}
+
+
+
+
+
